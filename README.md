@@ -15,4 +15,42 @@ In the initial data preparation phase, we performed the following tasks:
 - Handling missing values
 
 ### Exploratory Data Analysis
-1. 
+EDA involved exploring the data to explore the following:
+
+1. Hourly revenue analysis
+2. Profit and revenue trends
+3. Seasonal revenue
+4. Rider demographics
+   
+### Data Analysis
+I worked with the following code
+
+``` SQL
+WITH CTE_BikeShare AS (
+SELECT *
+  FROM [bike_share_yr_0]
+  UNION
+SELECT *
+FROM [bike_share_yr_1]
+)
+
+SELECT dteday, 
+season,
+a.yr,
+weekday,
+hr,  
+rider_type,
+riders,
+price,
+COGS,
+riders* price AS revenue,
+riders* price - COGS*riders AS profit
+FROM CTE_BikeShare a
+LEFT JOIN 
+cost_table b
+ON
+a.yr = b.yr
+```
+
+
+
