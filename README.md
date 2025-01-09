@@ -1,5 +1,7 @@
 ### Project Overview
 This data analysis project aims to provide insights into the sales performance of an bike shares company over the last  two years. By gaining a deeper understanding of the company's performance, we are able to recommend if increasing prices the next year is possible. 
+![Bike share dashboard](https://github.com/user-attachments/assets/225d412b-729b-4cf0-8934-0f2bef6e00d0)
+
 
 ### Data Sources
 An SQL database "bikeshare.db" was created for this analysis, containing detailed information about sales made by the company each year and the average cost of products.
