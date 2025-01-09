@@ -15,4 +15,4 @@ In the initial data preparation phase, we performed the following tasks:
 - Handling missing values
 
 ### Exploratory Data Analysis
-
+1. 
