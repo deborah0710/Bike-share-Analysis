@@ -55,10 +55,10 @@ a.yr = b.yr
 ### Results and Findings
 The result of the analysis are summarized as follows:
 
-1. The company's revenue and profit have been steadily increasing over the 2 years considered, with a noticeable peak in March 2022.
+1. The company's revenue and profit have been steadily increasing over the 2 years considered, with a noticeable peak in March 2022 due to the 25% price increase.
 2. The highest revenue was made in Season 3.
 3. The registered riders are 81.2% of the rider population, while the casual riders are 18.8%.
 
 ### Recommendations
-Based on the analysis, we recommend the following action
+Based on the analysis, it is recommended that the price increase be conservative, within the 10%  margin so as not to create room for competitor brands.
 
